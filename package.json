@@ -7,7 +7,7 @@
     "ganache-cli": "^6.10.0-tezos.1"
   },
   "scripts": {
-    "start-sandbox": "ganache-cli --flavor tezos --seed alice"
+    "start-sandbox": "docker run --rm --name delphibox --detach -p 8732:20000 trufflesuite/flextesa-mini-archive delphibox start"
   },
   "repository": {
     "type": "git",
