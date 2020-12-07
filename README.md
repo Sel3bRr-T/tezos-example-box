@@ -11,14 +11,15 @@ This box contains a `Counter` and `SimpleStorage` contract to display the basics
 - [Docker](https://docs.docker.com/v17.12/install/)
   - Used for LIGO compilations and running a local sandbox Tezos node.
 - [NodeJS](https://nodejs.org/en/)
-  -  v8.9.4 to v12.2.0
-
+  - v10 to v12.2.0
+- [Yarn]
+  - Please, use yarn for modules installation
 
 ## Installation
 
 1. Install Truffle globally. Make sure you install `truffle@tezos`.
   ```shell
-  npm install -g truffle@tezos
+  yarn add global truffle@tezos
   ```
 
 2. Download the box. This also takes care of installing the necessary dependencies.
@@ -28,6 +29,12 @@ This box contains a `Counter` and `SimpleStorage` contract to display the basics
 
 
 ## Usage
+
+- Installing Modules
+
+  ```shell
+  yarn
+  ```
 
 - Compiling the example smart contracts
 
