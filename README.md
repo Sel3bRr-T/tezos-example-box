@@ -12,7 +12,7 @@ This box contains a `Counter` and `SimpleStorage` contract to display the basics
   - Used for LIGO compilations and running a local sandbox Tezos node.
 - [NodeJS](https://nodejs.org/en/)
   - v10 to v12.2.0
-- [Yarn]
+- [Yarn](https://yarnpkg.com/getting-started/install)
   - Please, use yarn for modules installation
 
 ## Installation
